@@ -1,0 +1,4 @@
+gh = input("name of your college?")
+umm = input (" favourite rapper?")
+print(ugh + " ka "+ umm)
+print(len((ugh + " ka "+ umm))
