@@ -1,0 +1,6 @@
+a= float(input("bill kitne ka hua hai sahab"))
+b = int(input("kitne log khaaye"))
+x= int(input("what percent you wanna tip"))
+p = (a/b)*(1+x/100)
+
+print(f" your total share with tip is :- {round(p,3)}"
