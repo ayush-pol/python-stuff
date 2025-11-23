@@ -1,0 +1,16 @@
+print("welcome to ayush pizza store")
+a=input("what size of pizza do u want? : S, M or L")
+bill=0
+if a=="S":
+    bill=200
+elif a=="M":
+    bill=300
+else :
+    bill=400
+b = input("Do u want peopporoni? Yes or no")
+if b=="Yes":
+    bill+=30
+c = input("Do you want cheese? Yes or No")
+if c=="Yes":
+    bill+=30
+print(f"your bill is {bill}rs")
